@@ -13,7 +13,7 @@ function Home() {
       }
     };
     fetchWorkout();
-  }, []);
+  }, [workout]);
   return (
     <div className="home">
       <div className="workouts">
